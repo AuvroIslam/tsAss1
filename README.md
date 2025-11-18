@@ -17,7 +17,7 @@ interface User {
 interface User {
   age: number;
 }
-// ✅ Merged: { name: string; age: number }
+//  Merged: { name: string; age: number }
 ```
 
 - **Type**: একই নামে duplicate declaration error দেয়
@@ -125,3 +125,4 @@ type Readonly<T> = {
 6. **printBookDetails** - Interface implementation
 7. **getUniqueValues** - Generics এবং manual array manipulation
 8. **calculateTotalPrice** - Optional properties এবং reduce method
+
