@@ -58,9 +58,9 @@ type Dog = Animal & { bark(): void };
 
 ---
 
-### ২. TypeScript-এ keyof keyword-এর ব্যবহার কী?
+### ২. TypeScript এ keyof keyword এর ব্যবহার কী?
 
-**`keyof`** একটি type operator যা object-এর সব keys-কে union type হিসেবে extract করে।
+**`keyof`** একটি type operator যা object এর সব keys কে union type হিসেবে extract করে।
 
 #### Basic Usage:
 ```typescript
@@ -112,3 +112,4 @@ type Readonly<T> = {
 **সারাংশ**: `keyof` দিয়ে type-safe property access এবং manipulation সম্ভব, যা runtime errors প্রতিরোধ করে।
 
 ---
+
