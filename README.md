@@ -2,9 +2,9 @@
 
 ## Blog Posts (Interview Questions)
 
-### ১. TypeScript-এ Interface এবং Type-এর মধ্যে পার্থক্য কী?
+### ১. TypeScript এ Interface এবং Type এর মধ্যে পার্থক্য কী?
 
-TypeScript-এ **Interface** এবং **Type** উভয়ই object structure define করতে ব্যবহৃত হয়, তবে কিছু মূল পার্থক্য রয়েছে:
+TypeScript **Interface** এবং **Type** উভয়ই object structure define করতে ব্যবহৃত হয়, তবে কিছু মূল পার্থক্য রয়েছে:
 
 #### মূল পার্থক্যসমূহ:
 
@@ -112,17 +112,3 @@ type Readonly<T> = {
 **সারাংশ**: `keyof` দিয়ে type-safe property access এবং manipulation সম্ভব, যা runtime errors প্রতিরোধ করে।
 
 ---
-
-## Solution Overview
-
-৮টি problem solve করা হয়েছে TypeScript-এর fundamental concepts সহ:
-
-1. **formatValue** - Type guards এবং conditional returns
-2. **getLength** - Union types এবং type checking
-3. **Person class** - Class, constructor এবং methods
-4. **filterByRating** - Array filtering
-5. **filterActiveUsers** - Interface এবং array methods
-6. **printBookDetails** - Interface implementation
-7. **getUniqueValues** - Generics এবং manual array manipulation
-8. **calculateTotalPrice** - Optional properties এবং reduce method
-
